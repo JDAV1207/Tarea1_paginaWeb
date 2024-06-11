@@ -165,6 +165,14 @@ h1 {
     padding: 10px;
 }
 
+.info-jugador h2 {
+    margin-top: 0;
+}
+
+.info-jugador p {
+    margin-bottom: 0;
+}
+
 .player-profile {
     margin-top: 20px;
 }
@@ -181,94 +189,11 @@ h1 {
     text-align: left;
 }
 
+.player-info h2 {
+    margin-top: 0;
+}
+
 .player-info ul {
     list-style-type: none;
-}
-
-/*Pagina de Historia*/
-
-.historia-section {
-    padding: 20px;
-    max-width: 80%;
-    margin: 0px auto;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.historia-section h1 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.historia-section article {
-    margin-bottom: 20px;
-}
-
-.historia-section h2 {
-    color: #1c2e5d;
-}
-
-.historia-section p {
-    line-height: 1.6;
-}
-
-.historia-img {
-    width: 100%;
-    height: auto;
-    margin-top: 10px;
-    border-radius: 8px;
-}
-
-/*Pagina de Calendarios*/
-
-.calendario-section {
-    padding: 20px;
-    max-width: 800px;
-    margin: 20px auto;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.calendario-section h1 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.calendario-lista {
-    list-style: none;
-}
-
-.calendario-lista li {
-    background-color: #f0f0f0;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-/* Página Trofeos */
-.trophies-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
-}
-
-.trophy {
-    width: 300px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.trophy img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-.trophy-info {
-    background-color: #f0f0f0;
-    padding: 10px;
-    border-radius: 0 0 10px 10px;
+    padding: 0;
 }
